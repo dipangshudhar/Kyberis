@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+header{
+  text-align: left;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+  border-color: black;
+  display: flex;
+  align-items: center;
+}
+
+#top {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#top img {
+  border: solid 1px white;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+#top img {
+  transition: transform 0.5s ease-in-out;
+}
+
+#top img:hover {
+  transform: scale(1.1);
+}
+
+#top h1 {
+  transition: transform 0.5s ease-in-out;
+}
+
+#top h1:hover {
+  transform: scale(1.1);
+}
+
+#top p {
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+#top p {
+  transition: transform 0.5s ease-in-out;
+}
+
+#top p:hover {
+  transform: scale(1.1);
+}
+
+#bottom {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#bottom button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: purple;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+#bottom button {
+  transition: transform 0.5s ease-in-out;
+}
+
+#bottom button:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  padding-right: 17px;
+  font-size: 14px;
+}
+
+footer p {
+  text-align: center;
+  padding: 10px;
+}
